@@ -11,9 +11,7 @@ let hobby = "video games":
 let height = "5'7";
 const ageAfraid = 14; // security feature
 let fact = "likes computers";
-let male = true;
-let car; = null; // undefined, null; origonally "none"
-// debug with typeof
+let gender = "male";
 
 
 // print variabls to console
@@ -25,4 +23,4 @@ console.log(teeth);
 console.log(favSubject);
 console.log(hobby);
 console.log(fact);
-console.log("am i male?" + male);
+console.log(gender);
