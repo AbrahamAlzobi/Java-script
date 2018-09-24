@@ -12,7 +12,7 @@ let height = "5'7";
 const ageAfraid = 14; // security feature
 let fact = "likes computers";
 let male = true;
-let car; = null; // undefined, null; origonally "none"
+let car = null; // undefined, null; origonally "none"
 // debug with typeof
 
 

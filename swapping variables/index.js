@@ -2,13 +2,12 @@
 let first name = "Abraham";
 let last name = "Alzo;bi";
 //new code goes here
-let first name = "Mark";
-let last name = "Mercer"
-console.log firstname = (Abraham)
-console.log lastname = (Alzobi)
-
+// add a third variabl
+let memory =  firstName;
+firstName= lastname;
+lastname = memory;
 
 
 // print variabls to console
-console.log(firstname);
-console.log(lastname);
+console.log("My first name is: " + firstname);
+console.log("my last name is: " + lastname);
