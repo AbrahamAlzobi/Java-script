@@ -16,10 +16,10 @@ hair:  true,
 }
 
 // printing out entire object
-console.log(AbrahamAlzobi.firstName);
+console.log(AbrahamAlzobi);
 
 //Print first names only
-console.log(AbrahamAlzobi);
+console.log(AbrahamAlzobi.firstName);
 
 // print variabls to console
 //console.log("am i male?" + male);
