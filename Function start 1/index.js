@@ -1,4 +1,4 @@
-// hello world function
+          // hello world function
 function greet (firstName, lastName);{ // parameters
   console.log("hello"+  "World" + lastName)
 }
