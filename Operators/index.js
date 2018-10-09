@@ -16,8 +16,23 @@ function skipCounting (skipCount, times, startingNumber){
     console.log(number);
   }
 }
-let number = [4, 7, 13, 99];
-simpleOperators (number[0], number[1]);
-simpleOperators (number[2], number[3]);
-skipCounting (3, 6, 113);
-skipCounting (8, 11, -351);
+
+//simpleComparison
+function howManyTimes (numberStart, numberEnd, skipCount) {
+  while (numberStart < numberEnd) {
+    console.log(numberStart+= skipCount); // used to be 2 lines ... console.log(number)
+    }
+  }
+
+// truthy vs falsy example
+console.log(1==1); // returns true
+console.log('1' == 1) // returns true 
+console.log ('1' === 1);//returns false
+
+
+// let number = [4, 7, 13, 99, 0];
+//simpleOperators (number[0], number[1]);
+//simpleOperators (number[2], number[3]);
+//skipCounting (3, 6, 113);
+//skipCounting (8, 11, -351);
+//howManyTimes (number[4], number[5], number[6]);
